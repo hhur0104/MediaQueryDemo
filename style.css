@@ -1,0 +1,52 @@
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+  }
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 2% 2%;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+
+
+@media only screen and (max-width: 768px) {
+  .mainbody p {
+    padding: 0% 20px 20px;
+    font-size: 16px;
+  }
+
+  .mainbody img{
+    width: 95%;
+    height:auto;
+  }
+}
+
+@media only screen and (max-width: 390px) {
+  .navbar {
+    display: none;
+  }
+
+  .mainbody p {
+    padding: 0px 10px 10px;
+    font-size: 16px;
+  }
+
+  .mainbody img{
+    width: 95%;
+    height:auto;
+  }
+}
+
+
+
+
